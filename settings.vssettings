@@ -1,0 +1,198 @@
+<UserSettings>
+	<ApplicationIdentity version="10.0"/>
+	<ToolsOptions>
+		<ToolsOptionsCategory name="Environment" RegisteredName="Environment"/>
+		<ToolsOptionsCategory name="TextEditor" RegisteredName="TextEditor">
+			<ToolsOptionsSubCategory name="AllLanguages" RegisteredName="AllLanguages" PackageName="Text Management Package"/>
+			<ToolsOptionsSubCategory name="Basic" RegisteredName="Basic" PackageName="Text Management Package">
+				<PropertyValue name="TabSize">4</PropertyValue>
+				<PropertyValue name="AutoListMembers">true</PropertyValue>
+				<PropertyValue name="IndentStyle">2</PropertyValue>
+				<PropertyValue name="HideAdvancedMembers">false</PropertyValue>
+				<PropertyValue name="ShowNavigationBar">false</PropertyValue>
+				<PropertyValue name="VirtualSpace">false</PropertyValue>
+				<PropertyValue name="InsertTabs">false</PropertyValue>
+				<PropertyValue name="WordWrapGlyphs">true</PropertyValue>
+				<PropertyValue name="EnableLeftClickForURLs">true</PropertyValue>
+				<PropertyValue name="ShowLineNumbers">true</PropertyValue>
+				<PropertyValue name="WordWrap">false</PropertyValue>
+				<PropertyValue name="IndentSize">4</PropertyValue>
+				<PropertyValue name="CutCopyBlankLines">true</PropertyValue>
+				<PropertyValue name="AutoListParams">true</PropertyValue>
+			</ToolsOptionsSubCategory>
+			<ToolsOptionsSubCategory name="Basic-Specific" RegisteredName="Basic-Specific" PackageName="Visual Basic Compiler Package">
+				<PropertyValue name="EnableErrorCorrection">true</PropertyValue>
+				<PropertyValue name="Outlining">true</PropertyValue>
+				<PropertyValue name="EnableHighlightReferences">true</PropertyValue>
+				<PropertyValue name="DisplayLineSeparators">true</PropertyValue>
+				<PropertyValue name="PrettyListing">true</PropertyValue>
+				<PropertyValue name="AutoRequiredMemberInsert">true</PropertyValue>
+				<PropertyValue name="AutoEndInsert">true</PropertyValue>
+			</ToolsOptionsSubCategory>
+			<ToolsOptionsSubCategory name="General" RegisteredName="General" PackageName="Text Management Package">
+				<PropertyValue name="DragNDropTextEditing">true</PropertyValue>
+				<PropertyValue name="VerticalScrollBar">true</PropertyValue>
+				<PropertyValue name="EditorEmulation">0</PropertyValue>
+				<PropertyValue name="DetectUTF8WithoutSignature">true</PropertyValue>
+				<PropertyValue name="TrackChanges">true</PropertyValue>
+				<PropertyValue name="UndoCaretActions">false</PropertyValue>
+				<PropertyValue name="SelectionMargin">true</PropertyValue>
+				<PropertyValue name="GoToAnchorAfterEscape">false</PropertyValue>
+				<PropertyValue name="HorizontalScrollBar">true</PropertyValue>
+				<PropertyValue name="AutoDelimiterHighlighting">true</PropertyValue>
+				<PropertyValue name="MarginIndicatorBar">true</PropertyValue>
+			</ToolsOptionsSubCategory>
+			<ToolsOptionsSubCategory name="PlainText" RegisteredName="PlainText" PackageName="Text Management Package">
+				<PropertyValue name="TabSize">4</PropertyValue>
+				<PropertyValue name="AutoListMembers">true</PropertyValue>
+				<PropertyValue name="IndentStyle">1</PropertyValue>
+				<PropertyValue name="HideAdvancedMembers">true</PropertyValue>
+				<PropertyValue name="ShowNavigationBar">false</PropertyValue>
+				<PropertyValue name="VirtualSpace">false</PropertyValue>
+				<PropertyValue name="InsertTabs">true</PropertyValue>
+				<PropertyValue name="WordWrapGlyphs">true</PropertyValue>
+				<PropertyValue name="EnableLeftClickForURLs">true</PropertyValue>
+				<PropertyValue name="ShowLineNumbers">true</PropertyValue>
+				<PropertyValue name="WordWrap">false</PropertyValue>
+				<PropertyValue name="IndentSize">4</PropertyValue>
+				<PropertyValue name="CutCopyBlankLines">true</PropertyValue>
+				<PropertyValue name="AutoListParams">true</PropertyValue>
+			</ToolsOptionsSubCategory>
+			<ToolsOptionsSubCategory name="XML" RegisteredName="XML" PackageName="Text Management Package">
+				<PropertyValue name="TabSize">4</PropertyValue>
+				<PropertyValue name="AutoListMembers">true</PropertyValue>
+				<PropertyValue name="IndentStyle">2</PropertyValue>
+				<PropertyValue name="HideAdvancedMembers">true</PropertyValue>
+				<PropertyValue name="ShowNavigationBar">false</PropertyValue>
+				<PropertyValue name="VirtualSpace">false</PropertyValue>
+				<PropertyValue name="InsertTabs">true</PropertyValue>
+				<PropertyValue name="WordWrapGlyphs">true</PropertyValue>
+				<PropertyValue name="EnableLeftClickForURLs">true</PropertyValue>
+				<PropertyValue name="ShowLineNumbers">true</PropertyValue>
+				<PropertyValue name="WordWrap">false</PropertyValue>
+				<PropertyValue name="IndentSize">4</PropertyValue>
+				<PropertyValue name="CutCopyBlankLines">true</PropertyValue>
+				<PropertyValue name="AutoListParams">true</PropertyValue>
+			</ToolsOptionsSubCategory>
+		</ToolsOptionsCategory>
+	</ToolsOptions>
+	<Category name="Environment_Group" RegisteredName="Environment_Group">
+		<Category name="Environment_ExternalTools" Category="{E8FAE9E8-FBA2-4474-B134-AB0FFCFB291D}" Package="{DA9FB551-C724-11d0-AE1F-00A0C90FFFC3}" RegisteredName="Environment_ExternalTools" PackageName="Visual Studio Environment Package">
+			<PropertyValue name="Flash ATmega2560 on COM4.Command">%vsspv_user_appdata%\Desktop\ATmega2560Solution\avrdude.exe</PropertyValue>
+			<PropertyValue name="Flash ATmega2560 on COM4.Arguments">-C"C:\Program Files\Arduino\hardware\tools\avr\etc\avrdude.conf" -F -v -p atmega2560 -c stk500v2 -P\\.\COM4 -b115200 -D -Uflash:w:"$(ProjectDir)Release\$(ItemFileName).hex":i</PropertyValue>
+			<PropertyValue name="Flash ATmega2560 on COM4.InitialDirectory"/>
+			<PropertyValue name="Flash ATmega2560 on COM4.SourceKeyName"/>
+			<PropertyValue name="Flash ATmega2560 on COM4.UseOutputWindow">true</PropertyValue>
+			<PropertyValue name="Flash ATmega2560 on COM4.PromptForArguments">false</PropertyValue>
+			<PropertyValue name="Flash ATmega2560 on COM4.CloseOnExit">false</PropertyValue>
+			<PropertyValue name="Flash ATmega2560 on COM4.IsGUIapp">false</PropertyValue>
+			<PropertyValue name="Flash ATmega2560 on COM4.SaveAllDocs">true</PropertyValue>
+			<PropertyValue name="Flash ATmega2560 on COM4.UseTaskList">false</PropertyValue>
+			<PropertyValue name="Flash ATmega2560 on COM4.Unicode">false</PropertyValue>
+			<PropertyValue name="Flash ATmega2560 on COM4.Package">{00000000-0000-0000-0000-000000000000}</PropertyValue>
+			<PropertyValue name="Flash ATmega2560 on COM4.NameID">0</PropertyValue>
+			<PropertyValue name="Flash ATmega1280 on COM4.Command">%vsspv_user_appdata%\Desktop\ATmega2560Solution\avrdude.exe</PropertyValue>
+			<PropertyValue name="Flash ATmega1280 on COM4.Arguments">-C"C:\Program Files\Arduino\hardware\tools\avr\etc\avrdude.conf" -F -v -p atmega1280 -c arduino -P\\.\COM4 -b57600 -D -Uflash:w:"$(ProjectDir)Release\$(ItemFileName).hex":i</PropertyValue>
+			<PropertyValue name="Flash ATmega1280 on COM4.InitialDirectory"/>
+			<PropertyValue name="Flash ATmega1280 on COM4.SourceKeyName"/>
+			<PropertyValue name="Flash ATmega1280 on COM4.UseOutputWindow">true</PropertyValue>
+			<PropertyValue name="Flash ATmega1280 on COM4.PromptForArguments">false</PropertyValue>
+			<PropertyValue name="Flash ATmega1280 on COM4.CloseOnExit">true</PropertyValue>
+			<PropertyValue name="Flash ATmega1280 on COM4.IsGUIapp">false</PropertyValue>
+			<PropertyValue name="Flash ATmega1280 on COM4.SaveAllDocs">true</PropertyValue>
+			<PropertyValue name="Flash ATmega1280 on COM4.UseTaskList">false</PropertyValue>
+			<PropertyValue name="Flash ATmega1280 on COM4.Unicode">false</PropertyValue>
+			<PropertyValue name="Flash ATmega1280 on COM4.Package">{00000000-0000-0000-0000-000000000000}</PropertyValue>
+			<PropertyValue name="Flash ATmega1280 on COM4.NameID">0</PropertyValue>
+			<PropertyValue name="Flash ATmega2560 on COM6.Command">%vsspv_user_appdata%\Desktop\ATmega2560Solution\avrdude.exe</PropertyValue>
+			<PropertyValue name="Flash ATmega2560 on COM6.Arguments">-C"C:\Program Files\Arduino\hardware\tools\avr\etc\avrdude.conf" -F -v -p atmega2560 -c stk500v2 -P\\.\COM6 -b115200 -D -Uflash:w:"$(ProjectDir)Release\$(ItemFileName).hex":i</PropertyValue>
+			<PropertyValue name="Flash ATmega2560 on COM6.InitialDirectory"/>
+			<PropertyValue name="Flash ATmega2560 on COM6.SourceKeyName"/>
+			<PropertyValue name="Flash ATmega2560 on COM6.UseOutputWindow">true</PropertyValue>
+			<PropertyValue name="Flash ATmega2560 on COM6.PromptForArguments">false</PropertyValue>
+			<PropertyValue name="Flash ATmega2560 on COM6.CloseOnExit">true</PropertyValue>
+			<PropertyValue name="Flash ATmega2560 on COM6.IsGUIapp">false</PropertyValue>
+			<PropertyValue name="Flash ATmega2560 on COM6.SaveAllDocs">true</PropertyValue>
+			<PropertyValue name="Flash ATmega2560 on COM6.UseTaskList">false</PropertyValue>
+			<PropertyValue name="Flash ATmega2560 on COM6.Unicode">false</PropertyValue>
+			<PropertyValue name="Flash ATmega2560 on COM6.Package">{00000000-0000-0000-0000-000000000000}</PropertyValue>
+			<PropertyValue name="Flash ATmega2560 on COM6.NameID">0</PropertyValue>
+			<PropertyValue name="Flash ATmega1280 on COM6.Command">%vsspv_user_appdata%\Desktop\ATmega2560Solution\avrdude.exe</PropertyValue>
+			<PropertyValue name="Flash ATmega1280 on COM6.Arguments">-C"C:\Program Files\Arduino\hardware\tools\avr\etc\avrdude.conf" -F -v -p atmega1280 -c arduino -P\\.\COM6 -b57600 -D -Uflash:w:"$(ProjectDir)Release\$(ItemFileName).hex":i</PropertyValue>
+			<PropertyValue name="Flash ATmega1280 on COM6.InitialDirectory"/>
+			<PropertyValue name="Flash ATmega1280 on COM6.SourceKeyName"/>
+			<PropertyValue name="Flash ATmega1280 on COM6.UseOutputWindow">true</PropertyValue>
+			<PropertyValue name="Flash ATmega1280 on COM6.PromptForArguments">false</PropertyValue>
+			<PropertyValue name="Flash ATmega1280 on COM6.CloseOnExit">true</PropertyValue>
+			<PropertyValue name="Flash ATmega1280 on COM6.IsGUIapp">false</PropertyValue>
+			<PropertyValue name="Flash ATmega1280 on COM6.SaveAllDocs">true</PropertyValue>
+			<PropertyValue name="Flash ATmega1280 on COM6.UseTaskList">false</PropertyValue>
+			<PropertyValue name="Flash ATmega1280 on COM6.Unicode">false</PropertyValue>
+			<PropertyValue name="Flash ATmega1280 on COM6.Package">{00000000-0000-0000-0000-000000000000}</PropertyValue>
+			<PropertyValue name="Flash ATmega1280 on COM6.NameID">0</PropertyValue>
+			<PropertyValue name="ToolNames">Flash ATmega2560 on COM4, Flash ATmega1280 on COM4, Flash ATmega2560 on COM6, Flash ATmega1280 on COM6</PropertyValue>
+		</Category>
+		<Category name="Environment_KeyBindings" Category="{F09035F1-80D2-4312-8EC4-4D354A4BCB4C}" Package="{DA9FB551-C724-11d0-AE1F-00A0C90FFFC3}" RegisteredName="Environment_KeyBindings" PackageName="Visual Studio Environment Package">
+			<Version>10.0.0.0</Version>
+			<KeyboardShortcuts>
+				<ScopeDefinitions>
+					<Scope Name="VC Dialog Editor" ID="{543E0C02-8C85-4E43-933A-5EF320E3431F}"/>
+					<Scope Name="Text Editor" ID="{8B382828-6202-11D1-8870-0000F87579D2}"/>
+					<Scope Name="{B2C40B32-3A37-4CA9-97B9-FA44248B69FF}" ID="{B2C40B32-3A37-4CA9-97B9-FA44248B69FF}"/>
+					<Scope Name="WebBrowser" ID="{E8B06F41-6D01-11D2-AA7D-00C04F990343}"/>
+					<Scope Name="{B334A759-F450-40A5-BE2A-65937BCD5415}" ID="{B334A759-F450-40A5-BE2A-65937BCD5415}"/>
+					<Scope Name="{B968E165-98E0-41F0-8FBE-A8ED1D246A90}" ID="{B968E165-98E0-41F0-8FBE-A8ED1D246A90}"/>
+					<Scope Name="Global" ID="{5EFC7975-14BC-11CF-9B2B-00AA00573819}"/>
+					<Scope Name="CSS Source Editor" ID="{A764E89A-518D-11D2-9A89-00C04F79EFC3}"/>
+					<Scope Name="{CFF78A9B-78A3-45A3-9142-0267AFC261FA}" ID="{CFF78A9B-78A3-45A3-9142-0267AFC261FA}"/>
+					<Scope Name="VC String Editor" ID="{58442DA9-10DA-4AA9-A2AF-96E4D481379B}"/>
+					<Scope Name="Settings Designer" ID="{515231AD-C9DC-4AA3-808F-E1B65E72081C}"/>
+					<Scope Name="Windows Forms Designer" ID="{BA09E2AF-9DF2-4068-B2F0-4C7E5CC19E2F}"/>
+					<Scope Name="VC Accelerator Editor" ID="{EB56D0B5-BEE7-4D0C-8BE6-88A8ED256695}"/>
+					<Scope Name="{CB3675B8-701E-4F56-9167-2714E167FF3F}" ID="{CB3675B8-701E-4F56-9167-2714E167FF3F}"/>
+					<Scope Name="Managed Resources Editor" ID="{FEA4DCC9-3645-44CD-92E7-84B55A16465C}"/>
+					<Scope Name="{4194FEE5-6777-419F-A5FC-47A536DF1BDB}" ID="{4194FEE5-6777-419F-A5FC-47A536DF1BDB}"/>
+					<Scope Name="{CB3FCFEA-03DF-11D1-81D2-00A0C91BBEE3}" ID="{CB3FCFEA-03DF-11D1-81D2-00A0C91BBEE3}"/>
+					<Scope Name="{CB3FCFEB-03DF-11D1-81D2-00A0C91BBEE3}" ID="{CB3FCFEB-03DF-11D1-81D2-00A0C91BBEE3}"/>
+					<Scope Name="VC Image Editor" ID="{C0BA70ED-069E-412B-9C06-7442E28A11B9}"/>
+				</ScopeDefinitions>
+				<DefaultShortcuts/>
+				<ShortcutsScheme/>
+				<UserShortcuts>
+					<RemoveShortcut Command="Edit.GoToNextLocation" Scope="Global">F8</RemoveShortcut>
+					<RemoveShortcut Command="View.ToggleDesigner" Scope="Global">F7</RemoveShortcut>
+					<RemoveShortcut Command="Build.BuildOnlyProject" Scope="Global">F7</RemoveShortcut>
+					<Shortcut Command="Debug.StartDebuggingandBreak" Scope="Global">Alt+F5</Shortcut>
+					<Shortcut Command="EditorContextMenus.CodeWindow.GotoImplementation" Scope="Global">Alt+G</Shortcut>
+					<Shortcut Command="Build.BuildSolution" Scope="Global">F7</Shortcut>
+					<RemoveShortcut Command="Debug.ToggleBreakpoint" Scope="Global">F9</RemoveShortcut>
+					<RemoveShortcut Command="Debug.StepOver" Scope="Global">F10</RemoveShortcut>
+					<RemoveShortcut Command="Debug.StepInto" Scope="Global">F11</RemoveShortcut>
+					<RemoveShortcut Command="Edit.GoToDefinition" Scope="Global">F12</RemoveShortcut>
+					<Shortcut Command="Tools.ExternalCommand4" Scope="Global">F12</Shortcut>
+					<Shortcut Command="Tools.ExternalCommand3" Scope="Global">F11</Shortcut>
+					<RemoveShortcut Command="Tools.ExternalCommand3" Scope="Global">F10</RemoveShortcut>
+					<Shortcut Command="Tools.ExternalCommand2" Scope="Global">F10</Shortcut>
+					<Shortcut Command="Visual.Micro.Visual.Studio.Arduino.Helper.ToolsActiveDebugState" Scope="Text Editor">Shift+F5</Shortcut>
+					<RemoveShortcut Command="Tools.ExternalCommand1" Scope="Global">F8</RemoveShortcut>
+					<Shortcut Command="Tools.ExternalCommand1" Scope="Global">F9</Shortcut>
+				</UserShortcuts>
+			</KeyboardShortcuts>
+		</Category>
+	</Category>
+	<Category name="Environment_Group" RegisteredName="Environment_Group"/>
+	<Category name="Environment_Group" RegisteredName="Environment_Group"/>
+	<Category name="XmlEditor" Category="{4E1CDE49-B840-4826-8CC6-8FB80D7EF455}" Package="{87569308-4813-40a0-9cd0-d7a30838ca3f}" RegisteredName="XmlEditor" PackageName="Visual Studio XML Editor Package">
+		<PropertyValue name="AttributeFormatting">None</PropertyValue>
+		<PropertyValue name="AutoDownload">True</PropertyValue>
+		<PropertyValue name="AutoInsertAttributeQuotes">True</PropertyValue>
+		<PropertyValue name="AutoInsertEndTags">True</PropertyValue>
+		<PropertyValue name="AutoInsertNamespaceDeclarations">True</PropertyValue>
+		<PropertyValue name="AutoInsertOther">True</PropertyValue>
+		<PropertyValue name="AutoOutlining">True</PropertyValue>
+		<PropertyValue name="AutoReformatOnEndTag">True</PropertyValue>
+		<PropertyValue name="AutoReformatOnPaste">True</PropertyValue>
+		<PropertyValue name="FormatMixedContentByDefault">True</PropertyValue>
+		<PropertyValue name="SchemaCacheLocation">%VsInstallDir%\xml\Schemas</PropertyValue>
+	</Category>
+</UserSettings>
